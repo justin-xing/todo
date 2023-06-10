@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background-color: transparent;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1100px;
+  bottom: 0;
+}
+
+.footer-container {
+  border-top: solid;
+  border-width: 1px;
+  border-color: white;
+  margin: 0 auto; 
+  max-width: 1100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 2vh;
+  background-color: transparent;
+  text-align: center;
+}
