@@ -1,18 +1,19 @@
 .footer {
   width: 100%;
-  background-color: transparent;
+  /* background-color: transparent; */
   margin: 0 auto;  
   position: relative;
-  bottom: 0;
+  /* bottom: 0; */
+  padding-top: 50px
 }
 .footer-container {
   border-top: solid;
   border-width: 1px;
   border-color: white;
   margin: 0 auto; 
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-bottom: 50px;
-  height: 2vh;
-  background-color: transparent;
+  /* height: 2vh; */
+  /* background-color: transparent; */
   text-align: center;
-}
+} 
