@@ -1,8 +1,7 @@
 import "./App.css";
 
 import Header from "./components/GeneralUtilities/Header";
-import SideBar from './components/GeneralUtilities/SideBar';
-import Todo from "./components/Todo/Todo";
+import TodoPage from "./components/Todo/TodoPage";
 import Footer from "./components/GeneralUtilities/Footer";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -17,12 +16,11 @@ const darkTheme = createTheme({
 function App() {
   return (
     <>
-      <ThemeProvider theme={darkTheme} id="outer-container">
+      <ThemeProvider theme={darkTheme} >
         <CssBaseline />
-        <SideBar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
-        <div id="page-wrap">
+        <div>
           <Header />
-          <Todo />
+          <TodoPage />
           <Footer />
         </div>
       </ThemeProvider>
