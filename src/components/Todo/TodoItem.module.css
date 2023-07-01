@@ -7,4 +7,9 @@
 
 .title {
   font-weight: bold;
+  font-size: xx-large;
+}
+
+.strikethrough {
+  text-decoration: line-through;
 }

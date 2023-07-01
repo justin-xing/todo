@@ -1,10 +1,11 @@
-import TodoItem from './TodoItem';
-import './Todolist.css';
+import TodoItem from "./TodoItem";
+import "./Todolist.css";
 
 const TodoList = (props) => {
   return (
-    <div className='list-container'>
-        <ul className='list-content'>
+    <div className="list-container">
+      <h2>Tasks</h2>
+      <ul className="list-content">
         {props.items.map((item) => (
           <li key={item.key}>
             <TodoItem
@@ -18,6 +19,6 @@ const TodoList = (props) => {
       </ul>
     </div>
   );
-}
+};
 
 export default TodoList;
