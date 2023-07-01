@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import './AddTodo.css';
 
 const AddTodo = (props) => {
 
@@ -19,16 +20,18 @@ const AddTodo = (props) => {
   }
 
   return (
-    <form onSubmit={submitHandler}>
+    <form className='form' onSubmit={submitHandler}>
       <div>
-        <label htmlFor='title'>Title</label>
-        <input type='text' id='title' ref={titleRef} />
+        <label className='inputlabel' htmlFor='title'>Task name</label>
+        <br></br>
+        <input className='inputtitle' type='text' id='title' ref={titleRef} placeholder="Task name"/>
       </div>
       <div>
-        <label htmlFor='description'>Description</label>
-        <textarea rows='5' id='description' ref={descriptionRef}></textarea>
+        <label className='inputlabel' htmlFor='description'>Description</label>
+        <br></br>
+        <textarea className='inputdescription' rows='5' id='description' ref={descriptionRef} placeholder="Description"></textarea>
       </div>
-      <button>Add Task</button>
+      <button className='addtask'>Add Task</button>
     </form>
   );
 }

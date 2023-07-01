@@ -1,0 +1,47 @@
+.form {
+  border: solid;
+  border-width: 1px;
+  width: 40%;
+  padding: 20px 20px;
+  margin: auto;
+  overflow:hidden;
+}
+.inputlabel {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+.inputtitle {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.inputdescription {
+  resize: none;
+  width: 100%;
+  background-color: transparent;
+  color:white;
+  border: none;
+}
+.addtask {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: solid;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  float: right;
+}
+.addtask:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px white;
+}

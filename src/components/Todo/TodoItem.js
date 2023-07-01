@@ -1,17 +1,15 @@
 import Box from "@mui/material/Box";
+import './TodoItem.css';
 
 const TodoItem = (props) => {
 
   return (
     <Box>
-      <div>
+      <div className='title'>
         {props.title}
       </div>
-      <div>
+      <div className='description'>
         {props.description}
-      </div>
-      <div>
-        {props.done ? "Done" : "Not Done"}
       </div>
     </Box>
   );
