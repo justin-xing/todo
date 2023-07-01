@@ -4,7 +4,7 @@ import './TodoItem.css';
 const TodoItem = (props) => {
 
   return (
-    <Box>
+    <Box className='box'>
       <div className='title'>
         {props.title}
       </div>

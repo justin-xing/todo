@@ -1,13 +1,6 @@
 import TodoItem from './TodoItem';
 import './Todolist.css';
 
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
-
 const TodoList = (props) => {
   return (
     <div className='list-container'>
