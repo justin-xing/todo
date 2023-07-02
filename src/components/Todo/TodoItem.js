@@ -11,7 +11,7 @@ const TodoItem = (props) => {
 
   return (
     <Box className={classes.box} onClick={toggleDoneHandler}>
-      <div className={`${classes.title} ${ done ? classes.strikethrough : null}`}>
+      <div className={`${classes.taskname} ${ done ? classes.strikethrough : null}`}>
         {props.title}
       </div>
       <div className={`${classes.description} ${ done ? classes.strikethrough : null}`}>

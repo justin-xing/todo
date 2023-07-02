@@ -2,9 +2,11 @@
   border: solid;
   border-width: 1px;
   width: 40%;
+  border-radius: 10px;
   padding: 20px 20px;
   margin: auto;
   overflow:hidden;
+  margin-top: 155px;
 }
 .inputlabel {
   -webkit-user-select: none;
@@ -12,36 +14,42 @@
   -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
+  font-size: 18px;
 }
-.inputtitle {
+.inputtaskname {
   width: 100%;
   background-color: transparent;
   color: white;
   border: none;
+  font-size: 16px;
 }
-
 .inputdescription {
   resize: none;
   width: 100%;
   background-color: transparent;
   color:white;
   border: none;
+  font-size: 16px;
 }
-.addtask {
+::placeholder {
+  color: #828282;
+}
+.inputaddtask {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
-  background-color: transparent;
   border: solid;
-  color: white;
   border-width: 1px;
   border-radius: 5px;
+  background-color: transparent;
   padding: 10px 10px;
   float: right;
+  color: white;
+  font-size: 18px;
 }
-.addtask:hover {
+.inputaddtask:hover {
   cursor: pointer;
   box-shadow: 0px 0px 10px 0px white;
 }

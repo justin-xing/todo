@@ -1,15 +1,14 @@
 import React from 'react';
-import './Header.css';
+import classes from './Header.module.css';
 
 function Header () {
   return (
-    <header className="site-header">
-    <div className="wrapper site-header__wrapper">
-      <p className="ToDo">Todo</p>
+    <header className={classes.header}>
+    <div className={classes.headercontainer}>
+      <p>ToDo</p>
     </div>
   </header>
   )
 }
 
 export default Header
-

@@ -1,11 +1,11 @@
 import TodoItem from "./TodoItem";
-import "./Todolist.css";
+import classes from "./Todolist.module.css";
 
 const TodoList = (props) => {
   return (
-    <div className="list-container">
-      <h2>Tasks</h2>
-      <ul className="list-content">
+    <div className={classes.listcontainer}>
+      <p className={classes.currenttasks}>Current Tasks</p>
+      <ul className={classes.listcontent}>
         {props.items.map((item) => (
           <li key={item.key}>
             <TodoItem

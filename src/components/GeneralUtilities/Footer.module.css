@@ -1,12 +1,10 @@
 .footer {
   position: absolute;
   width: 100%;
-  margin: 0 auto;  
-  padding-top: 50px;
-}
-.footer-container {
-  margin: 0 auto; 
   border-top: solid;
   border-width: 1px;
+  margin-top: 28px;
+}
+.footercontainer {
   text-align: center;
 }

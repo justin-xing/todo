@@ -1,18 +1,21 @@
-.list-container {
+.listcontainer {
   border-top: solid;
   border-width: 1px;
-  margin-top: 50px;
-  padding-top: 50px;
   text-align: center;
+  margin-top: 49px;
 }
-
-.list-content {
-  display: inline-block;
-  text-align: left;
-  cursor: pointer;
+.currenttasks {
+  font-size: 24px;
+  margin-top: 49px;
+}
+.listcontent {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  display: inline-block;
+  text-align: left;
   list-style-type: none;
+  cursor: pointer;
+  margin-top: 16px;
 }
