@@ -74,8 +74,8 @@ const TodoPage = () => {
 
   return (
     <>
-      <AddTodo addItemHandler={addItemHandler}/>
       <section>{content}</section>
+      <AddTodo addItemHandler={addItemHandler}/>
     </>
   );
 };

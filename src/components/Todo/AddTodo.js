@@ -22,16 +22,12 @@ const AddTodo = (props) => {
   return (
     <form className={classes.form} onSubmit={submitHandler}>
       <div>
-        <label className={classes.inputlabel} htmlFor='title'>Task name</label>
-        <br></br>
         <input className={classes.inputtaskname} type='text' id='title' ref={titleRef} placeholder="Task name"/>
       </div>
       <div>
-        <label className={classes.inputlabel} htmlFor='description'>Description</label>
-        <br></br>
-        <textarea className={classes.inputdescription} rows='5' id='description' ref={descriptionRef} placeholder="Description"></textarea>
+        <textarea className={classes.inputdescription} rows='1' id='description' ref={descriptionRef} placeholder="Description"></textarea>
       </div>
-      <button className={classes.inputaddtask}>Add task</button>
+      <button className={classes.addtask}>Add task</button>
     </form>
   );
 }

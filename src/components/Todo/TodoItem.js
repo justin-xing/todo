@@ -4,13 +4,12 @@ import classes from './TodoItem.module.css';
 
 const TodoItem = (props) => {
   const [done, setDone] = useState(false);
-
   const toggleDoneHandler = () => {
     setDone((prevState) => !prevState);
   }
 
   return (
-    <Box className={classes.box} onClick={toggleDoneHandler}>
+    <Box className={`${classes.todoitemcontainer} ${ done ? classes.finished : null}`} onClick={toggleDoneHandler}>
       <div className={`${classes.taskname} ${ done ? classes.strikethrough : null}`}>
         {props.title}
       </div>

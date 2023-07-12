@@ -1,55 +1,52 @@
 .form {
+  width: 50%;
+  margin: auto;
   border: solid;
   border-width: 1px;
-  width: 40%;
-  border-radius: 10px;
-  padding: 20px 20px;
-  margin: auto;
+  border-color: #212124;
   overflow:hidden;
-  margin-top: 155px;
-}
-.inputlabel {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  font-size: 18px;
+  margin-top: 49px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
 }
 .inputtaskname {
   width: 100%;
   background-color: transparent;
-  color: white;
   border: none;
+  color: white;
   font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 5px 5px;
 }
 .inputdescription {
-  resize: none;
   width: 100%;
+  resize: none;
   background-color: transparent;
-  color:white;
   border: none;
+  color:white;
   font-size: 16px;
+  padding: 5px 5px;
 }
 ::placeholder {
-  color: #828282;
+  color: #A1A1AA;
 }
-.inputaddtask {
+.addtask {
+  float: right;
+  background-color: transparent;
+  border: solid;
+  border-width: 1px;
+  border-color: #212124;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  white-space: nowrap;
-  border: solid;
-  border-width: 1px;
-  border-radius: 5px;
-  background-color: transparent;
   padding: 10px 10px;
-  float: right;
-  color: white;
-  font-size: 18px;
 }
-.inputaddtask:hover {
+.addtask:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 10px 0px white;
+  background-color: #18181a;
 }

@@ -1,10 +1,15 @@
 .footer {
-  position: absolute;
   width: 100%;
   border-top: solid;
   border-width: 1px;
-  margin-top: 28px;
+  border-color: #212124;
 }
 .footercontainer {
   text-align: center;
+  font-size: 16px;
+  color: #A1A1AA;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

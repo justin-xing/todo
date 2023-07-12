@@ -1,16 +1,22 @@
-.box{
-  border-bottom: solid;
+.todoitemcontainer{
+  border: solid;
   border-width: 1px;
-  padding-bottom: 25px;
-  margin-bottom: 5px;
+  border-color: #212124;
+  padding: 10px 10px;
+}
+.todoitemcontainer:hover{
+  background-color: #18181a;
 }
 .taskname {
   font-size: 18px;
 }
 .description {
   font-size: 16px;
-  color: #828282;
+  color: #A1A1AA;
 }
 .strikethrough {
   text-decoration: line-through;
+}
+.finished {
+  background-color: #18181a;
 }
